@@ -9,6 +9,9 @@
 
 
 def signo(numero):
+    """Esta funcion me devuelve si u
+el numero ingresado es positivo o negativo"""
+    
     if numero < 0:
         
         return ('negativo')
@@ -21,12 +24,13 @@ def signo(numero):
     else:
         
         return ('cero')
-    pass
-    '''funcion que me da el signo de cada numero ingresado'''
+    
+    
 
 def prueba():
     numero = int(input('Ingrese un numero: '))
     valor_ingresado = signo(numero)
+    
     print (f'El signo del numero ingresado es {signo(numero)}')
     
     
