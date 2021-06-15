@@ -6,16 +6,21 @@
 
 # conversion de temperaturas
 
+  
 def convertir_a_fahrenheit(centigrados):
+    '''convierte a grados fahrenheit'''
     
     return ((centigrados *9/5) + 32)
-'''convierte a grados fahrenheit'''   
-        
     
+     
+        
+   
 def convertir_a_centigrados(fahrenheit):
+    '''convierte a grados centigrados'''
     
     return ((fahrenheit - 32) * 5/9)
-  '''convierte a grados centigrados'''  
+    
+     
     
 
 def prueba():
